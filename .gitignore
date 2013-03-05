@@ -1,0 +1,10 @@
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+*.xcbkptlist
+
+*.xcscheme
+
+ViewCell.xcodeproj/xcuserdata/cameron.xcuserdatad/xcschemes/xcschememanagement.plist
