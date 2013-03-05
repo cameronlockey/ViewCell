@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CLViewCell;
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet CLViewCell *viewCell;
+@property (weak, nonatomic) IBOutlet CLViewCell *viewCell2;
+@property (weak, nonatomic) IBOutlet CLViewCell *viewCell3;
+
+-(void)testAction;
+- (IBAction)siteLimitationsTouched:(id)sender;
 
 @end
